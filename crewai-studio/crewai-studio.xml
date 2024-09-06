@@ -13,7 +13,7 @@
         Welcome to CrewAI Studio! This application provides a user-friendly interface written in Streamlit for interacting with CrewAI, suitable even for those who don't want to write any code.
     </Overview>
     <Category>AI:</Category>
-    <WebUI>http://[IP]:[PORT:8510]/</WebUI>
+    <WebUI>http://[IP]:[PORT:8510]</WebUI>
     <TemplateURL/>
     <Icon>https://github.com/strnad/CrewAI-Studio/blob/main/img/crewai_logo.png</Icon>
     <ExtraParams/>
