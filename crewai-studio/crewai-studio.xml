@@ -15,7 +15,7 @@
     <Category>AI:</Category>
     <WebUI>http://[IP]:[PORT:8510]</WebUI>
     <TemplateURL/>
-    <Icon>https://github.com/strnad/CrewAI-Studio/blob/main/img/crewai_logo.png</Icon>
+    <Icon>https://raw.githubusercontent.com/strnad/CrewAI-Studio/main/img/crewai_logo.png</Icon>
     <ExtraParams/>
     <PostArgs/>
     <DateInstalled>1527397055</DateInstalled>
