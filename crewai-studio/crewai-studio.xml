@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Container version="2">
+    <Name>CrewAi-Studio</Name>
+    <Registry>https://hub.docker.com/r/tham0nk/</Registry>
+    <Repository>tham0nk/crewai-studio</Repository>
+    <Github>https://github.com/strnad/CrewAI-Studio</Github>
+    <Network>bridge</Network>
+    <MyIP/>
+    <Privileged>false</Privileged>
+    <Support></Support>
+    <Project/>
+    <Overview>
+        Welcome to CrewAI Studio! This application provides a user-friendly interface written in Streamlit for interacting with CrewAI, suitable even for those who don't want to write any code.
+    </Overview>
+    <Category>AI:</Category>
+    <WebUI>http://[IP]:[PORT:8510]/</WebUI>
+    <TemplateURL/>
+    <Icon>https://github.com/strnad/CrewAI-Studio/blob/main/img/crewai_logo.png</Icon>
+    <ExtraParams/>
+    <PostArgs/>
+    <DateInstalled>1527397055</DateInstalled>
+    <DonateText/>
+    <DonateLink/>
+    <DonateImg/>
+    <MinVer/>
+    <Description>all agents / Tasks / Crews are stored in /CrewAI-Studio/crewai.db</Description>
+    <Networking>
+        <Mode>bridge</Mode>
+        <Publish>
+            <Port>
+                <HostPort>8510</HostPort>
+                <ContainerPort>8510</ContainerPort>
+                <Protocol>tcp</Protocol>
+            </Port>
+        </Publish>
+    </Networking>
+    <Data>
+        <Volume>
+            <HostDir>/mnt/user/appdata/crewai-studio</HostDir>
+            <ContainerDir>/CrewAI-Studio</ContainerDir>
+            <Mode>rw</Mode>
+        </Volume>
+    </Data>
+    <Environment/>
+    <Labels/>
+    <Config Name="Host Port" Target="8510" Default="8510" Mode="tcp" Description="Container Port: 8510" Type="Port" Display="always"
+            Required="true" Mask="false">8510</Config>
+    <Config Name="OpenAi Api-Key" Target="OPENAI_API_KEY" Default="dsmrreader" Mode="" Description="Container Variable: OPENAI_API_KEY" 
+            Type="Variable" Display="always" Required="false" Mask="false"/>
+</Container>
